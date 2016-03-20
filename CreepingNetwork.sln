@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82890191-9936-4086-9EEC-AC7C70A7AFE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7BC80381-52DE-444F-B223-2D473C4B6D12}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CreepingNetwork", "src\CreepingNetwork\CreepingNetwork.xproj", "{B4CE58C0-928A-4CB3-B065-B1EF8310923A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepingNetwork.Model", "CreepingNetwork.Model\CreepingNetwork.Model.csproj", "{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepingNetwork.Repository", "CreepingNetwork.Repository\CreepingNetwork.Repository.csproj", "{698CFA14-DB00-4314-B2CB-8ABAF310D4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepingNetwork.Data", "CreepingNetwork.Data\CreepingNetwork.Data.csproj", "{03FF3765-FAC7-4562-8B9B-2F06693357A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepingNetwork.Common", "CreepingNetwork.Common\CreepingNetwork.Common.csproj", "{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4CE58C0-928A-4CB3-B065-B1EF8310923A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CE58C0-928A-4CB3-B065-B1EF8310923A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CE58C0-928A-4CB3-B065-B1EF8310923A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CE58C0-928A-4CB3-B065-B1EF8310923A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698CFA14-DB00-4314-B2CB-8ABAF310D4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698CFA14-DB00-4314-B2CB-8ABAF310D4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698CFA14-DB00-4314-B2CB-8ABAF310D4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698CFA14-DB00-4314-B2CB-8ABAF310D4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FF3765-FAC7-4562-8B9B-2F06693357A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FF3765-FAC7-4562-8B9B-2F06693357A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FF3765-FAC7-4562-8B9B-2F06693357A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FF3765-FAC7-4562-8B9B-2F06693357A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4CE58C0-928A-4CB3-B065-B1EF8310923A} = {82890191-9936-4086-9EEC-AC7C70A7AFE0}
+		{3A0BE49D-F32E-4ADD-A8D4-2FD85E7FFA55} = {82890191-9936-4086-9EEC-AC7C70A7AFE0}
+		{698CFA14-DB00-4314-B2CB-8ABAF310D4F7} = {82890191-9936-4086-9EEC-AC7C70A7AFE0}
+		{03FF3765-FAC7-4562-8B9B-2F06693357A9} = {82890191-9936-4086-9EEC-AC7C70A7AFE0}
+		{CC8000EA-C71B-4F7D-A7F0-877A7B6CB151} = {82890191-9936-4086-9EEC-AC7C70A7AFE0}
+	EndGlobalSection
+EndGlobal
